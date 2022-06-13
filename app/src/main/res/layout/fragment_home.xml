@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff8f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="@drawable/layout_shape"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_baseline_menu_24" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="191dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:src="@drawable/logoteks"/>
+
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:fontFamily="@font/montbold"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="393dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#a47567">
+
+        <LinearLayout
+            android:layout_width="23dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roxboroughlight"
+                android:text="Relax, "
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roxboroughlight"
+                android:text="Recharge,"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roxboroughlight"
+                android:text="Rejuvenate."
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montbold"
+                android:text="See More"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="13dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_width="268dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/spaimg" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#edd6cf"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/sukar"
+        android:hint="Search"
+        android:padding="15dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="579dp"
+        android:layout_marginBottom="80dp">
+
+        <include layout="@layout/layout_produk" />
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

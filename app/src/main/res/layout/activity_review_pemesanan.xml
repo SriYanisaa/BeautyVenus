@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewPemesanan"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="@drawable/layout_round"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REVIEW PEMESANAN"
+            android:fontFamily="@font/sukar"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montbold"
+            android:text="Nama Pembeli :  "
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/namapelanggan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/sukar"
+            android:hint="Nama Pelanggan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montbold"
+            android:text="Nama Barang :  "
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/namabarang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/sukar"
+            android:hint="Nama Barang" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montbold"
+            android:text="Quantity :  "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/jumlahbeli"
+            android:layout_width="266dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/sukar"
+            android:hint="Quantity" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montbold"
+            android:text="Harga Barang :  "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/harga"
+            android:layout_width="266dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/sukar"
+            android:hint="Harga Satuan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montbold"
+            android:text="Uang Bayar :  "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/uangbayar"
+            android:layout_width="266dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/sukar"
+            android:hint="Jumlah Uang " />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tombol1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#a47567"
+        android:text="TOTAL"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Belanja "
+        android:textColor="@color/black"
+        android:id="@+id/totalbelanja"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/uangkembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="25dp"
+        android:text="Uang Kembali "
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tombol3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="165dp"
+        android:background="@drawable/button_shape"
+        android:text="BAYAR"
+        android:textColor="#FFFFFF" />
+
+
+
+
+</LinearLayout>

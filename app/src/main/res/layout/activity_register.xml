@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff8f6"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_shape">
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Register"
+        android:textSize="30sp"
+        android:fontFamily="@font/roxboroughcfbold"
+        android:textColor="#a47567"/>
+
+    <TextView
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roxboroughlight"
+        android:text="Nama"
+        android:textColor="#a47567"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editnama"
+        android:layout_width="370dp"
+        android:layout_height="59dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#edd6cf"
+        android:hint="First Name"
+        android:inputType="text"
+        android:fontFamily="@font/sukar"
+        android:textColor="#794e42"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roxboroughlight"
+        android:paddingTop="10dp"
+        android:text="Alamat"
+        android:textColor="#a47567"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editalamat"
+        android:layout_width="370dp"
+        android:layout_height="59dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#edd6cf"
+        android:fontFamily="@font/sukar"
+        android:hint="Alamat"
+        android:inputType="text"
+        android:textColor="#794e42"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roxboroughlight"
+        android:paddingTop="10dp"
+        android:text="Email"
+        android:textColor="#a47567"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editmail"
+        android:layout_width="369dp"
+        android:layout_height="59dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#edd6cf"
+        android:hint="hallo@gmail.com"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/sukar"
+        android:textColor="#794e42"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roxboroughlight"
+        android:paddingTop="10dp"
+        android:text="Password"
+        android:textColor="#a47567"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#edd6cf"
+        android:fontFamily="@font/sukar"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#794e42"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roxboroughlight"
+        android:paddingTop="10dp"
+        android:text="Konfirmasi Password"
+        android:textColor="#a47567"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/konfigpass"
+        android:layout_width="373dp"
+        android:layout_height="59dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#edd6cf"
+        android:fontFamily="@font/sukar"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#794e42"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/sukar"
+        android:text="I agree with privacy and policy"
+        android:textColor="#a47567"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roxboroughcfbold"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="163dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/sukar"
+            android:text="Already hava an account?"
+            android:textColor="#a47567"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/sukar"
+            android:text="Login"
+            android:textColor="#a47567"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_shape"
+        android:layout_marginTop="15dp">
+    </RelativeLayout>
+</LinearLayout>

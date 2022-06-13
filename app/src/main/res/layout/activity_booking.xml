@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff8f6"
+    android:id="@+id/mainbooking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="@drawable/layout_shape"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="8dp"/>
+
+
+        <TextView
+            android:layout_width="342dp"
+            android:layout_height="85dp"
+            android:fontFamily="@font/sukar"
+            android:gravity="center"
+            android:text="Form Booking"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="847dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/roxboroughlight"
+                android:padding="5dp"
+                android:text="Nama"
+                android:textColor="#a47567"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/formnama"
+                android:layout_width="363dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="#edd6cf"
+                android:hint="Nama" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roxboroughlight"
+                android:padding="5dp"
+                android:text="Nomor Telepon"
+                android:textColor="#a47567"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="363dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="#edd6cf"
+                android:hint="Nomor Telepon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roxboroughlight"
+                android:padding="5dp"
+                android:text="Alamat"
+                android:textColor="#a47567"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="363dp"
+                android:layout_height="124dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="#edd6cf"
+                android:hint="Alamat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roxboroughlight"
+                android:padding="5dp"
+                android:text="Nama Layanan"
+                android:textColor="#a47567"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/layanan"
+                android:layout_width="357dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/button_shape"
+                android:backgroundTint="#edd6cf"
+                android:hint="Nama Layanan" />
+
+            <LinearLayout
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="51dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roxboroughlight"
+                    android:padding="5dp"
+                    android:text="Tanggal"
+                    android:textColor="#a47567"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roxboroughlight"
+                    android:padding="5dp"
+                    android:text="Jam"
+                    android:textColor="#a47567"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="374dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/tanggal"
+                    android:layout_width="181dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:backgroundTint="#edd6cf"
+                    android:hint="Pilih Tanggal" />
+
+                <EditText
+                    android:id="@+id/jam"
+                    android:layout_width="171dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape"
+                    android:backgroundTint="#edd6cf"
+                    android:hint="Pilih Jam" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/pesan"
+                android:layout_width="278dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_shape"
+                android:text="PESAN SEKARANG"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff8f6"
+    android:gravity="center_horizontal"
+    android:id="@+id/loginlayout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/layout_shape">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roxboroughcfbold"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textColor="#a47567"
+        android:textSize="30sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="356dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/roxboroughlight"
+        android:text="Username"
+        android:gravity="center_vertical"
+        android:textColor="#a47567"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="360dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#edd6cf"
+        android:drawableStart="@drawable/ic_account"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/sukar"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColor="#794e42"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="359dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/roxboroughlight"
+        android:gravity="center_vertical"
+        android:paddingTop="40dp"
+        android:text="Password"
+        android:textColor="#a47567"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#edd6cf"
+        android:fontFamily="@font/sukar"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_key"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"/>
+
+    <CheckBox
+        android:id="@+id/showpass"
+        android:layout_width="361dp"
+        android:layout_height="77dp"
+        android:fontFamily="@font/sukar"
+        android:text="Show Password"
+        android:textColor="#a47567"
+        android:textSize="17sp"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="192dp"
+        android:layout_height="63dp"
+        android:background="@drawable/button_shape"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roxboroughcfbold"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:fontFamily="@font/sukar"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="Don't have an account?"
+            android:textColor="#a47567"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/sukar"
+            android:paddingTop="10dp"
+            android:text="Register"
+            android:textColor="#a47567"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/layout_shape">
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BeautyVenus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pijatekfoliasi">Pijat ekfoliasi merupakan layanan dari spa yang memberikan kenyamanan. Layanan meliputi scrub dan pijat seluruh tubuh sehingga badan terlebih segar.</string>
+    <string name="detail_status">Kamu bisa lihat pemesanan kamu pada fitur My Appoinment. Pembayaran pemesanan bisa dibayarkan langsung ditempat</string>
+</resources>
